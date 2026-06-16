@@ -3,32 +3,21 @@
 
 
 ### 🧾 Application Management
-- Create and manage different types of requests:
-  - First-time license issuance
-  - License renewal
-  - Replacement for lost/damaged licenses
-  - International license issuance
-- Track application status (New, Completed, Cancelled)
-- Prevent duplicate or invalid requests
+- 
 
-### 👤 People Management
-- Store and manage applicant data
-- Unique identification using National ID
-- Full profile management (Name, DOB, Contact Info, etc.)
+### 👤 Create Account
+- Enter personal information
+- Enter contact information(Email - Phone)
+- Enter user information
 
-### 🧪 Test Management
-- Vision Test 👁️
-- Theory Test 📘
-- Practical Driving Test 🚗
-- Schedule tests and record results
-- Allow retakes for failed tests
+### <img width="24" height="24" alt="verify (1)" src="https://github.com/user-attachments/assets/5bfa1b5a-a936-4430-9dbc-aee0fb2fa999" /> Account Verification
+   Required steps for account verification :
+- Address
+- ID photo
+  
 
-### 🪪 License Management
-- Issue licenses based on class and eligibility
-- Renew expired licenses
-- Handle detained licenses and release them
-- Issue international driving licenses
-
+###  Transfer operations
+- 
 
 ### ✨ Features
 
@@ -47,7 +36,7 @@
 ### ⚙️ Installation
 
 ```bash
-git clone https://github.com/KenanAlshoufi/Driving-License-Management.git
+git clone https://github.com/KenanAlshoufi/Bit-Way.git
 cd project
   ```
 
