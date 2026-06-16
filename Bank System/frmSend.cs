@@ -131,15 +131,6 @@ namespace Bank_System
                 errorProvider1.SetError(txtAddressAccount, null);
             }
 
-            if (clsGlobal.CurrentUser.TotalAmount < Convert.ToDecimal(txtAmount.Text.Trim()))
-            {
-                e.Cancel = true;
-                errorProvider1.SetError(txtAddressAccount, "The amount is not enough.");
-            }
-            else
-            {
-                errorProvider1.SetError(txtAddressAccount, null);
-            }
         }
 
         private async Task LoadAllCurrency()

@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\My Project\\Bank System\\Bank System\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF38DED4-4C1C-43E1-A8EF-9D9EFC3A5561}|Bit Way.csproj|d:\\my project\\bank system\\bit-way\\bank system\\frmsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF38DED4-4C1C-43E1-A8EF-9D9EFC3A5561}|Bit Way.csproj|solutionrelative:frmsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF38DED4-4C1C-43E1-A8EF-9D9EFC3A5561}|Bit Way.csproj|d:\\my project\\bank system\\bit-way\\bank system\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF38DED4-4C1C-43E1-A8EF-9D9EFC3A5561}|Bit Way.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF38DED4-4C1C-43E1-A8EF-9D9EFC3A5561}|Bit Way.csproj|D:\\My Project\\Bank System\\Bit-Way\\Bank System\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF38DED4-4C1C-43E1-A8EF-9D9EFC3A5561}|Bit Way.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF38DED4-4C1C-43E1-A8EF-9D9EFC3A5561}|Bit Way.csproj|D:\\My Project\\Bank System\\Bit-Way\\Bank System\\frmprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF38DED4-4C1C-43E1-A8EF-9D9EFC3A5561}|Bit Way.csproj|solutionrelative:frmprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF38DED4-4C1C-43E1-A8EF-9D9EFC3A5561}|Bit Way.csproj|D:\\My Project\\Bank System\\Bit-Way\\Bank System\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF38DED4-4C1C-43E1-A8EF-9D9EFC3A5561}|Bit Way.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmSend.cs",
+              "DocumentMoniker": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\frmSend.cs",
+              "RelativeDocumentMoniker": "frmSend.cs",
+              "ToolTip": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\frmSend.cs",
+              "RelativeToolTip": "frmSend.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAwwH4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:31:24.127Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwEwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:31:09.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\Main.cs [Design]",
+              "RelativeToolTip": "Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T10:27:15.918Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmProfile.cs [Design]",
+              "DocumentMoniker": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\frmProfile.cs",
+              "RelativeDocumentMoniker": "frmProfile.cs",
+              "ToolTip": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\frmProfile.cs [Design]",
+              "RelativeToolTip": "frmProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T10:27:13.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "D:\\My Project\\Bank System\\Bit-Way\\Bank System\\frmLogin.cs [Design]",
+              "RelativeToolTip": "frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T10:22:30.504Z"
             }
           ]
         }

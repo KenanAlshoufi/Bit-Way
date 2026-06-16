@@ -30,6 +30,10 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.accountVerificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,10 +45,6 @@
             this.btnReceive = new System.Windows.Forms.Button();
             this.btnSend = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.accountVerificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -77,6 +77,42 @@
             this.toolStripTextBox1.ReadOnly = true;
             this.toolStripTextBox1.Size = new System.Drawing.Size(114, 35);
             this.toolStripTextBox1.Text = "   Bit Way";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.Control;
+            this.toolStripMenuItem1.Image = global::Bank_System.Properties.Resources.user;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(89, 35);
+            this.toolStripMenuItem1.Text = "Profile";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // accountVerificationToolStripMenuItem
+            // 
+            this.accountVerificationToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.accountVerificationToolStripMenuItem.Image = global::Bank_System.Properties.Resources.verified_1;
+            this.accountVerificationToolStripMenuItem.Name = "accountVerificationToolStripMenuItem";
+            this.accountVerificationToolStripMenuItem.Size = new System.Drawing.Size(194, 35);
+            this.accountVerificationToolStripMenuItem.Text = "Account Verification";
+            this.accountVerificationToolStripMenuItem.Click += new System.EventHandler(this.accountVerificationToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.ForeColor = System.Drawing.Color.White;
+            this.toolStripMenuItem2.Image = global::Bank_System.Properties.Resources.restore__1_;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(155, 35);
+            this.toolStripMenuItem2.Text = "Transaction log";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
+            // logOutToolStripMenuItem
+            // 
+            this.logOutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.logOutToolStripMenuItem.Image = global::Bank_System.Properties.Resources.logout;
+            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(96, 35);
+            this.logOutToolStripMenuItem.Text = "Log out";
+            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -130,7 +166,7 @@
             // 
             this.cbCurrency.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbCurrency.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbCurrency.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(172)))), ((int)(((byte)(38)))));
+            this.cbCurrency.ForeColor = System.Drawing.Color.Black;
             this.cbCurrency.FormattingEnabled = true;
             this.cbCurrency.Items.AddRange(new object[] {
             "USD"});
@@ -217,42 +253,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.Control;
-            this.toolStripMenuItem1.Image = global::Bank_System.Properties.Resources.user;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(89, 35);
-            this.toolStripMenuItem1.Text = "Profile";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // accountVerificationToolStripMenuItem
-            // 
-            this.accountVerificationToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.accountVerificationToolStripMenuItem.Image = global::Bank_System.Properties.Resources.verified_1;
-            this.accountVerificationToolStripMenuItem.Name = "accountVerificationToolStripMenuItem";
-            this.accountVerificationToolStripMenuItem.Size = new System.Drawing.Size(194, 35);
-            this.accountVerificationToolStripMenuItem.Text = "Account Verification";
-            this.accountVerificationToolStripMenuItem.Click += new System.EventHandler(this.accountVerificationToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.ForeColor = System.Drawing.Color.White;
-            this.toolStripMenuItem2.Image = global::Bank_System.Properties.Resources.restore__1_;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(155, 35);
-            this.toolStripMenuItem2.Text = "Transaction log";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
-            // 
-            // logOutToolStripMenuItem
-            // 
-            this.logOutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.logOutToolStripMenuItem.Image = global::Bank_System.Properties.Resources.logout;
-            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(96, 35);
-            this.logOutToolStripMenuItem.Text = "Log out";
-            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // Main
             // 
