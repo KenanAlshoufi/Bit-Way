@@ -1,9 +1,11 @@
 ## 🚀 Bit Way
 [![Forks](https://img.shields.io/github/forks/KenanAlshoufi/Driving-License-Management?style=for-the-badge)](https://github.com/username/repo)
 
+#### The project is a simple electronic wallet with basic operations such as sending, receiving, and depositing funds using various methods. The project is still in the development phase.
 
-### 🧾 Application Management
-- 
+### 🧾 Main menu 
+<img width="1361" height="766" alt="image" src="https://github.com/user-attachments/assets/27e8d142-bba7-4762-928e-b442d0d020e6" />
+
 
 ### 👤 Create Account
 - Enter personal information
@@ -17,13 +19,13 @@
   
 
 ###  Transfer operations
-- 
+- Send to Other Account
+- Receive
+- Deposit
 
 ### ✨ Features
 
 - 🔐 Login system
-- 📊 Data management
-
 
 <br><br>
 
@@ -63,10 +65,11 @@ cd project
 
 ### 🛠️ Technologies
 
-- **C# (.NET)**
+- **C# (.NET Framework)**
+- **Windows Forms**
 - **Object-Oriented Programming (OOP)**
-- **SQL Server**
-- **Windows Forms / Desktop Application**
+- **Microsoft SQL Server**
+- **Transact-SQL (T-SQL) for database programming and automation**
 <br>
 
 ### 📬 Contact Me
@@ -85,4 +88,4 @@ If you like this project, feel free to give it a star ⭐
   
 ![C#](https://img.shields.io/badge/code-C%23-blue?style=for-the-badge)
 ![SQL Server](https://img.shields.io/badge/database-SQL%20Server-red?style=for-the-badge)
-![.NET](https://img.shields.io/badge/framework-.NET
+![T-SQL](https://img.shields.io/badge/language-T--SQL-blue?style=for-the-badge)
