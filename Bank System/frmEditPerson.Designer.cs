@@ -78,10 +78,9 @@
             this.txtFirstname.ForeColor = System.Drawing.Color.DarkGray;
             this.txtFirstname.Location = new System.Drawing.Point(249, 106);
             this.txtFirstname.Name = "txtFirstname";
-            this.txtFirstname.NameTextBox = "First name";
+            this.txtFirstname.NameTextBox = "";
             this.txtFirstname.Size = new System.Drawing.Size(138, 27);
             this.txtFirstname.TabIndex = 6;
-            this.txtFirstname.Text = "First name";
             this.txtFirstname.Validating += new System.ComponentModel.CancelEventHandler(this.ValidateEmptyTextbox);
             // 
             // txtlastname
@@ -92,10 +91,9 @@
             this.txtlastname.ForeColor = System.Drawing.Color.DarkGray;
             this.txtlastname.Location = new System.Drawing.Point(570, 178);
             this.txtlastname.Name = "txtlastname";
-            this.txtlastname.NameTextBox = "Last name";
+            this.txtlastname.NameTextBox = "";
             this.txtlastname.Size = new System.Drawing.Size(138, 27);
             this.txtlastname.TabIndex = 7;
-            this.txtlastname.Text = "Last name";
             this.txtlastname.Validating += new System.ComponentModel.CancelEventHandler(this.ValidateEmptyTextbox);
             // 
             // txtSecondname
@@ -106,10 +104,9 @@
             this.txtSecondname.ForeColor = System.Drawing.Color.DarkGray;
             this.txtSecondname.Location = new System.Drawing.Point(570, 106);
             this.txtSecondname.Name = "txtSecondname";
-            this.txtSecondname.NameTextBox = "Second name";
+            this.txtSecondname.NameTextBox = "";
             this.txtSecondname.Size = new System.Drawing.Size(138, 27);
             this.txtSecondname.TabIndex = 8;
-            this.txtSecondname.Text = "Second name";
             this.txtSecondname.Validating += new System.ComponentModel.CancelEventHandler(this.ValidateEmptyTextbox);
             // 
             // txtThirdname
@@ -120,10 +117,9 @@
             this.txtThirdname.ForeColor = System.Drawing.Color.DarkGray;
             this.txtThirdname.Location = new System.Drawing.Point(249, 178);
             this.txtThirdname.Name = "txtThirdname";
-            this.txtThirdname.NameTextBox = "Third name";
+            this.txtThirdname.NameTextBox = "";
             this.txtThirdname.Size = new System.Drawing.Size(138, 27);
             this.txtThirdname.TabIndex = 9;
-            this.txtThirdname.Text = "Third name";
             // 
             // txtEmail
             // 
@@ -133,10 +129,10 @@
             this.txtEmail.ForeColor = System.Drawing.Color.DarkGray;
             this.txtEmail.Location = new System.Drawing.Point(570, 260);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.NameTextBox = "Email";
+            this.txtEmail.NameTextBox = "";
             this.txtEmail.Size = new System.Drawing.Size(138, 27);
             this.txtEmail.TabIndex = 10;
-            this.txtEmail.Text = "Email";
+            this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
             this.txtEmail.Validating += new System.ComponentModel.CancelEventHandler(this.txtEmail_Validating);
             // 
             // txtPhone
@@ -147,10 +143,9 @@
             this.txtPhone.ForeColor = System.Drawing.Color.DarkGray;
             this.txtPhone.Location = new System.Drawing.Point(249, 265);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.NameTextBox = "Phone number";
+            this.txtPhone.NameTextBox = "";
             this.txtPhone.Size = new System.Drawing.Size(138, 27);
             this.txtPhone.TabIndex = 12;
-            this.txtPhone.Text = "Phone number";
             this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhone_KeyPress);
             this.txtPhone.Validating += new System.ComponentModel.CancelEventHandler(this.ValidateEmptyTextbox);
             // 

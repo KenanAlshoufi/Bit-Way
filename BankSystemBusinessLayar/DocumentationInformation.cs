@@ -60,7 +60,10 @@ namespace BankSystemBusinessLayar
             return DocumentationInformationData.IsDocumentationInformationExist( AccountID );
         }
 
-
+        public static bool IsAccountVerified(int AccountID)
+        {
+            return DocumentationInformationData.IsAccountVerified( AccountID );
+        }
 
         public static DocumentationInformation FindDocumentationInformationByAccountID(int AccountID)
         {

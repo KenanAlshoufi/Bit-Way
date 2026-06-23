@@ -68,7 +68,13 @@ namespace Bank_System
 
         private void accountVerificationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Windows.MessageBox.Show("غير متاح حاليا", "Error", MessageBoxButton.OK);
+            if (DocumentationInformation.IsAccountVerified(clsGlobal.CurrentUser.AccountID))
+            {
+                System.Windows.MessageBox.Show("You are verified","Done",MessageBoxButton.OK);
+                return;
+            }
+            frmVerifiedAccount verifiedAccount = new frmVerifiedAccount();
+            verifiedAccount.ShowDialog();
         }
 
         private void btnSend_Click(object sender, EventArgs e)

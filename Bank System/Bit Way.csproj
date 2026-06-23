@@ -94,6 +94,12 @@
     <Compile Include="frmSend.Designer.cs">
       <DependentUpon>frmSend.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmVerifiedAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerifiedAccount.Designer.cs">
+      <DependentUpon>frmVerifiedAccount.cs</DependentUpon>
+    </Compile>
     <Compile Include="Global\clsFormat.cs" />
     <Compile Include="Global\clsUtil.cs" />
     <Compile Include="Global\clsValidation.cs" />
@@ -141,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTest.resx">
       <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerifiedAccount.resx">
+      <DependentUpon>frmVerifiedAccount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -265,6 +274,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-upload.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

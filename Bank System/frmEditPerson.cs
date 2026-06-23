@@ -241,5 +241,10 @@ namespace Bank_System
         {
             this.Close();
         }
+
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

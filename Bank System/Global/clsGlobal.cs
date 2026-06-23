@@ -3,6 +3,7 @@ using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -11,6 +12,8 @@ namespace Bank_System.Global
 {
     public class clsGlobal
     {
+        public static TimeSpan Durationofaccountverification  = new TimeSpan(0, 1, 0);
+      
         public static AccountInformation CurrentUser;
 
         private static string KeyPath= @"HKEY_CURRENT_USER\SOFTWARE\Bitway_Login";

@@ -153,7 +153,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(556, 251);
+            this.label3.Location = new System.Drawing.Point(555, 251);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(108, 19);
             this.label3.TabIndex = 15;
@@ -199,7 +199,7 @@
             this.lblDateofBirth.AutoSize = true;
             this.lblDateofBirth.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDateofBirth.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDateofBirth.Location = new System.Drawing.Point(602, 279);
+            this.lblDateofBirth.Location = new System.Drawing.Point(590, 279);
             this.lblDateofBirth.Name = "lblDateofBirth";
             this.lblDateofBirth.Size = new System.Drawing.Size(37, 20);
             this.lblDateofBirth.TabIndex = 19;
@@ -268,7 +268,7 @@
             // pbVerified
             // 
             this.pbVerified.Image = global::Bank_System.Properties.Resources.verified_1;
-            this.pbVerified.Location = new System.Drawing.Point(229, 137);
+            this.pbVerified.Location = new System.Drawing.Point(354, 105);
             this.pbVerified.Name = "pbVerified";
             this.pbVerified.Size = new System.Drawing.Size(25, 26);
             this.pbVerified.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
